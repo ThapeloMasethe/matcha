@@ -1,19 +1,6 @@
 <?php
-   /*  $dsn      = 'mysql:host=localhost;dbname=matcha';
+    $dsn      = 'mysql:host=localhost;dbname=matcha';
+    $host     = 'mysql:host=localhost';
     $user     = 'root';
-    $password = 'prayeroracion'; */
-    class Database {
-        /* protected $conn; */
-        protected $host;
-        protected $user;
-        protected $dbname;
-        protected $password;
-        function __construct() {
-            $this->host     = 'mysql:host=localhost';
-            $this->user     = 'root';
-            $this->dbname   = 'dbname=matcha';
-           /*  $this->dsn      = 'mysql:host=localhost;dbname=matcha'; */
-            $this->password = 'prayeroracion';
-        }
-    }
+    $password = 'prayeroracion';
 ?>
