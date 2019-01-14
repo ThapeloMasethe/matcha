@@ -1,10 +1,72 @@
 body{
-    width: 100%;
+    /* width: 100%; */
 }
-.far{
+.far, .fas{
+    color: purple;
+}
+.fas:hover, .far:hover{
     color: pink;
 }
-.container{
+#rules{
+    float: left;
+    margin-left: 50%;
+}
+#rules i{
+    height: 10%;
+    width: 10%;
+}
+.mainContainer{
     height: 920px;
     width: 100%;
+    background-image: url(../img/flower.jpg);
+    background-color: pink;
+}
+#loginContainer, #registerContainer, .deco{
+    margin: 0 10% 0 10%;
+    font-family: fantasy;
+    color: purple;
+}
+.deco, #rules{
+    font-family: fantasy;
+    color: purple;
+}
+input[type=text], input[type=password], input[type=email], #selectGender {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid pink;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: plum;
+  }
+  input[type=date]{
+    width: 18.1%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid pink;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: plum;
+  }
+  #loginContainer input[type=submit], #registerContainer input[type=submit], .deco input[type=submit]{
+    width: 25%;
+    background-color: plum;
+    color: purple;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid purple;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#loginContainer input[type=submit]:hover, .deco input[type=submit]:hover, #registerContainer input[type=submit]:hover{
+    background-color: pink;
+    color: plum;
+}
+#bio{
+    height: 100px;
+}
+#selectGender{
+    width: 21%;
 }

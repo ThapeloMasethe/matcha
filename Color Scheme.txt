@@ -1,0 +1,6 @@
+FIELDS:
+    Borders: pink;
+    color: plum;
+SUBMIT INPUT:
+    background: plum;
+    

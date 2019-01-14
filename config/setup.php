@@ -16,8 +16,8 @@
             try {
                 $query = $this->conn->prepare('CREATE TABLE IF NOT EXISTS MATCHA.USERS (
                     ID          INT NOT NULL AUTO_INCREMENT,
-                    LASTNAME    VARCHAR(20)     NOT NULL,
-                    FIRSTNAME   VARCHAR(20)     NOT NULL,
+                    LASTNAME    VARCHAR(20),
+                    FIRSTNAME   VARCHAR(20),
                     EMAIL       VARCHAR(100)    NOT NULL,
                     USERNAME    VARCHAR(20)     NOT NULL,
                     `PASSWORD`  VARCHAR(512)    NOT NULL,
